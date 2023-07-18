@@ -1,0 +1,45 @@
+@import "header.css";
+@import "whyWe.css";
+@import "testLesson.css";
+@import "courseCards.css";
+@import "footer.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@font-face {
+  font-family: "DrukWideBold";
+  src: url(fonts/inter-extra-bold.otf) format("opentype");
+  font-weight: 700;
+  font-style: bold;
+}
+@font-face {
+  font-family: "Shnobel";
+  src: url(fonts/Shnobel-Regular.otf) format("opentype");
+  font-weight: 700;
+  font-style: bold;
+}
+@font-face {
+  font-family: "Lalezar";
+  src: url(fonts/Lalezar-Regular.ttf) format("opentype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f8fafd;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.section {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}

@@ -1,0 +1,46 @@
+.testLesson {
+  background-image: url(images/testBackMob.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+#testLesson {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.testLesson .subtitle {
+  text-transform: uppercase;
+  text-align: center;
+}
+.testLesson .whyBorder {
+  background-color: #32a653;
+  transform: rotate(-3.26deg);
+}
+.testLesson .whyBorder span {
+  transform: rotate(-3.26deg);
+}
+.smallText {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+}
+.todayText{
+    padding-top:10px;
+}
+#greenHero{
+    top:-30px;
+    left:190px;
+    z-index:2;
+    height:125px;
+    width:auto;
+    position: absolute;
+}
+.todaySection .testTitle, .todaySection .smallText{
+text-align: left;
+}
+.todaySection .whyBorder{
+    margin-left: 0;
+}
+.todaySection{
+    position: relative;
+}

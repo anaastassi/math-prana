@@ -1,0 +1,39 @@
+#elephant{
+    width:80px;
+    height: 104px;
+}
+.footer{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom:10px;
+}
+.insta{
+    background-image: url(images/insta.png) ;
+}
+.fb{
+    background-image: url(images/fb.png) ;
+}
+.telegram{
+    background-image: url(images/telegram.png) ;
+}
+.viber{
+    background-image: url(images/viber.png) ;
+}
+.socials a{
+    height: 44px;
+}
+.socials a div{
+    width:44px;
+    height: 44px;
+}
+.socials{
+    display: flex;
+    height: 44px;
+    gap:10px;
+    justify-content: center;
+}
+.footer .logo{
+    align-self: flex-end;
+}

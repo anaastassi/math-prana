@@ -1,0 +1,158 @@
+.logo {
+  width: 74px;
+  height: 22px;
+  align-self: center;
+}
+.instaLogo {
+  width: 44px;
+  height: 44px;
+  align-self: center;
+}
+.phoneLogo {
+  width: 50px;
+  height: 50px;
+}
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 114px;
+  height: 50px;
+  align-self: center;
+}
+.headerMenu {
+  display: flex;
+  height: 62px;
+  justify-content: space-between;
+  align-content: center;
+}
+.offcanvas-header .subtitle {
+  font-size: 39px;
+}
+.header {
+  background-image: url(images/backMob.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  max-height: 100vh;
+}
+.animals {
+  background-image: url(images/animalsMob.png);
+  height: 249px;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.title {
+  font-family: "DrukWideBold";
+  font-size: 34px;
+  margin-top: 15px;
+}
+.subtitle {
+  font-family: "Shnobel";
+  font-size: 31px;
+  margin: auto;
+}
+.subtitle span {
+  color: #3c8bda;
+}
+.arrow {
+  position: relative;
+  width: 49px;
+  height: 49px;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  background: url(images/Ellipse.png);
+}
+.arrow1 {
+  position: absolute;
+  animation: arrow 1s linear infinite;
+}
+.arrow2 {
+  position: absolute;
+  animation: arrow 1s linear infinite;
+  animation-delay: 0.5s;
+}
+@keyframes arrow {
+  from {
+    top: -49px;
+  }
+  to {
+    top: 49px;
+  }
+}
+.offcanvas-top {
+  min-height: 100vh !important;
+}
+.dropMenu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 320px;
+  margin: auto;
+  gap: 10px;
+}
+.text {
+  width: 250px;
+  margin: auto;
+}
+input {
+  border-radius: 68px;
+  height: 51px;
+  border: 1px solid #5f5f5f;
+  padding-left: 20px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+}
+.sendBtn {
+  border-radius: 68px;
+  border: none;
+  height: 79px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  font-size: 42px;
+}
+.courses div {
+  height: 208px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  font-family: "Inter", sans-serif;
+  font-style: bold;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 5px;
+}
+.courses {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.preschool {
+  background-color: #32a653;
+  color: white;
+}
+.school {
+  background-color: #fcd444;
+  color: black;
+}
+.courses img {
+  height: 91px;
+  width: auto;
+  margin: auto;
+}
+.preschool :nth-child(3) {
+  color: #fcd444;
+}
+.school :nth-child(3) {
+  color: #004a9e;
+}

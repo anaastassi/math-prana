@@ -1,0 +1,79 @@
+.cards{
+    width:100%;
+    max-width: 592px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: white;
+    text-align: left;
+    margin-bottom:50px;
+}
+.courseCards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom:20px;
+}
+.cardTitle{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 22px;
+}
+li{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    color:#004A9E;
+    background-color: #FCD444;
+    width: fit-content;
+    border-radius: 5px;
+    padding:4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    
+}
+.ul{
+    display: flex;
+    gap:5px;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cards p,.cards p span{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 14px;
+    color:#5F5F5F;
+}
+.cards p span{
+    font-weight: 400;
+}
+.content{
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:50px;
+}
+.price{
+    float: left;
+    line-height:26px;
+}
+.priceNumber{
+    background-color: #32A653;
+    border-radius: 20px;
+    color: white;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size:18px;
+    margin-left:10px;
+}
+.cards a{
+    float: right;
+    text-decoration: underline;
+    color: #3C8BDA;
+    font-size: 14px;
+}

@@ -1,0 +1,65 @@
+.whyWe .subtitle {
+  text-transform: uppercase;
+}
+.dottedImg {
+  background: url(images/blueItem.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 68px;
+  height: 54px;
+  position: relative;
+}
+.dottedImg:hover{
+    background: url(images/greenItem.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 68px;
+    height: 54px;
+    position: relative;
+}
+.dottedItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 20px;
+}
+.dottedItem .subtitle {
+  text-align: left;
+}
+.dotted {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: auto;
+  padding-top: 30px;
+  gap: 10px;
+}
+.dottedImg img {
+  width: 22.55px;
+  height: auto;
+  position: absolute;
+  top: 38px;
+  left: 53px;
+}
+.listNumber {
+  font-family: "Lalezar";
+  font-size: 35px;
+  color: white;
+  line-height: 58px;
+}
+.whyTitle {
+  font-size: 39px;
+  color: #004a9e;
+}
+.whySubtitle {
+  font-size: 33.3px;
+  color: #fcd444;
+}
+.whyBorder {
+  background-color: #3c8bda;
+  border-radius: 7.98px;
+  width: fit-content;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+}
