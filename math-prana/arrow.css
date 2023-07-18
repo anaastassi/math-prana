@@ -1,4 +1,4 @@
-.arrow{
+.sliderArrow{
     width: 15.957px;
     height: 26.595px;
     flex-shrink: 0;
@@ -24,7 +24,7 @@
 
 @media screen and (min-width: 770px){
 
-    .arrow{
+    .sliderArrow{
         position: absolute;
         width: 36px;
         height: 60px;

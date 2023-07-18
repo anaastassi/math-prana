@@ -4,12 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+
+    <link rel="stylesheet" type="text/css" href="arrow.css">
+    <link rel="stylesheet" href="slider.css">
+
+    <script src="js/slider.js"></script>
+
     <link rel="stylesheet" href="main.css" />
     <title>prana</title>
   </head>
@@ -232,6 +239,136 @@
         </div>
       </div>
     </section>
+
+    <section id="slider">
+      <h2 class="teacher-block__title fontSliderTitle">наші вчителі</h2>
+      <div class="teacher-block__inner-wrapper">
+        <ul class="nav nav-tabs">
+          <div onclick="left()" class="sliderArrow withoutLeft arrowLeft"></div>
+          <li class="nav-item teacherItem">
+            <a class="nav-link active" data-toggle="tab" href="#maryana">
+              <div class="teacher-block__tab">
+                <div class="teacher-block__child teacher-block__child--1"></div>
+
+              </div>
+            </a>
+          </li>
+          <li class="nav-item teacherItem">
+            <a class="nav-link" data-toggle="tab" href="#anastasiya">
+              <div class="teacher-block__tab">
+                <div class="teacher-block__child teacher-block__child--2"></div>
+
+              </div>
+            </a>
+          </li>
+          <li class="nav-item teacherItem">
+            <a class="nav-link" data-toggle="tab" href="#elena">
+              <div class="teacher-block__tab">
+                <div class="teacher-block__child teacher-block__child--3"></div>
+
+              </div>
+            </a>
+          </li>
+          <li class="nav-item teacherItem hideTeacher">
+            <a class="nav-link" data-toggle="tab" href="#elena">
+              <div class="teacher-block__tab">
+                <div class="teacher-block__child teacher-block__child--3"></div>
+
+              </div>
+            </a>
+          </li>
+          <li class="nav-item teacherItem hideTeacher">
+            <a class="nav-link" data-toggle="tab" href="#elena">
+              <div class="teacher-block__tab">
+                <div class="teacher-block__child teacher-block__child--3"></div>
+
+              </div>
+            </a>
+          </li>
+          <li class="nav-item teacherItem hideTeacher">
+            <a class="nav-link" data-toggle="tab" href="#elena">
+              <div class="teacher-block__tab">
+                <div class="teacher-block__child teacher-block__child--3"></div>
+                <span class="teacher-block__tab-text">Елена</span>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item teacherItem hideTeacher" >
+            <a class="nav-link" data-toggle="tab" href="#elena">
+              <div class="teacher-block__tab">
+                <div class="teacher-block__child teacher-block__child--3"></div>
+                <span class="teacher-block__tab-text">Елена</span>
+              </div>
+            </a>
+          </li>
+          <div onclick="right()" class="sliderArrow arrowRight withoutLeft "></div>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="maryana">
+            <div class="teacher-block__tab-content">
+
+
+              <div class="teacher-block__card teacher-block__card--1"></div>
+              <div class="teacher-block__tab-content-text">
+                <p class="teacher-block__tab-content-title fontSliderTeacherName">ФЕДОРЧАК МАР‘ЯНА</p>
+                <p class="fontSliderTitleDescription">Освіта:</p>
+                <p class="fontSliderDescription">маю вищу педагогічну та філологiчну освіту. З дітками я працюю <br>
+                  уже понад 3 роки, а у сфері швидкочитання більше року.</p>
+                <p class="fontSliderTitleDescription">Про себе:</p>
+                <p class="fontSliderDescription">ммаю вищу педагогічну та філологiчну освіту. З дітками я працюю <br>
+                  уже понад 3 роки, а у сфері швидкочитання більше року.</p>
+                <p class="fontSliderTitleDescription">Інше:</p>
+                <p class="fontSliderDescription">ммаю вищу педагогічну та філологiчну освіту. З дітками я працюю<br>
+                  уже понад 3 роки, а у сфері швидкочитання більше року.</p>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="tab-pane fade" id="anastasiya">
+            <div class="teacher-block__tab-content">
+
+              <div class="teacher-block__card teacher-block__card--2"></div>
+              <div class="teacher-block__tab-content-text">
+                <p class="teacher-block__tab-content-title fontSliderTeacherName">ФЕДОРЧАК МАР‘ЯНА2</p>
+                <p class="fontSliderTitleDescription">Освіта:</p>
+                <p class="fontSliderDescription">маю вищу педагогічну та філологiчну освіту. З дітками я працюю <br>
+                  уже понад 3 роки, а у сфері швидкочитання більше року.</p>
+                <p class="fontSliderTitleDescription">Про себе:</p>
+                <p class="fontSliderDescription">ммаю вищу педагогічну та філологiчну освіту. З дітками я працюю <br>
+                  уже понад 3 роки, а у сфері швидкочитання більше року.</p>
+                <p class="fontSliderTitleDescription">Інше:</p>
+                <p class="fontSliderDescription">ммаю вищу педагогічну та філологiчну освіту. З дітками я працюю<br>
+                  уже понад 3 роки, а у сфері швидкочитання більше року.</p>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="tab-pane fade" id="elena">
+            <div class="teacher-block__tab-content">
+
+              <div class="teacher-block__card teacher-block__card--3"></div>
+              <div class="teacher-block__tab-content-text">
+                <p class="teacher-block__tab-content-title fontSliderTeacherName">ФЕДОРЧАК МАР‘ЯНА3</p>
+                <p class="fontSliderTitleDescription">Освіта:</p>
+                <p class="fontSliderDescription">маю вищу педагогічну та філологiчну освіту. З дітками я працюю <br>
+                  уже понад 3 роки, а у сфері швидкочитання більше року.</p>
+                <p class="fontSliderTitleDescription">Про себе:</p>
+                <p class="fontSliderDescription">ммаю вищу педагогічну та філологiчну освіту. З дітками я працюю <br>
+                  уже понад 3 роки, а у сфері швидкочитання більше року.</p>
+                <p class="fontSliderTitleDescription">Інше:</p>
+                <p class="fontSliderDescription">ммаю вищу педагогічну та філологiчну освіту. З дітками я працюю<br>
+                  уже понад 3 роки, а у сфері швидкочитання більше року.</p>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="section testLesson todaySection" id="todaySection">
       <div class="todayContent">
         <div class="todayText">
@@ -275,6 +412,11 @@
         <a href=""><div class="viber"></div></a>
       </div>
     </footer>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://unpkg.com/popper.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
