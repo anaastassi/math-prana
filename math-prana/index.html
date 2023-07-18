@@ -82,27 +82,37 @@
         </div>
       </a>
     </header>
-    <section class="dropMenu courses section">
+    <section class="courses section">
       <a href="#">
-        <div class="preschool">
+        <div class="preschool" id="preschool">
+          <div>
           <img src="images/book.png" />
+        </div>
+          <div class="textCourses">
           <span class="middleTitle">курси дошкільної підготовки</span>
-          <span> для дітей 5-7 років </span>
+          <p class="kids" > для дітей 5-7 років </p>
+        </div>
         </div>
       </a>
       <a href="#">
-        <div class="school">
+        <div class="school" id="school" >
+          <div>
           <img src="images/pencil.png" />
-          <span class="middleTitle">курси<br />початкових класів</span>
-          <span> 1-4 рік навчання </span>
+        </div>
+        <div class="textCourses" >
+          <span class="middleTitle">курси початкових класів</span>
+          <p class="middleKids" > 1-4 рік навчання </p>
+        </div>
         </div>
       </a>
     </section>
     <section class="whyWe section">
-      <h2 class="whyTitle subtitle">Чому саме ми?</h2>
-      <div class="whyBorder">
+      <div class="flex">
+      <div><h2 class="whyTitle subtitle">Чому саме ми?</h2></div>
+      <div class="whyBorder" id="whyBorder">
         <span class="whySubtitle subtitle">Дізнаємося!</span>
       </div>
+    </div>
       <div class="dotted">
         <div class="dottedItem">
           <div>
@@ -170,7 +180,7 @@
       <p class="smallText">
         Наш менеджер зателефонує Вам і підбере курс та вчителя під ваші потреби
       </p>
-      <div class="dropMenu">
+      <div class="dropMenu" id="dropMenu2">
         <input type="text" name="name" id="name2" placeholder="Ім’я" />
         <input type="text" name="phone" id="phone2" placeholder="Телефон" />
         <button type="submit" id="sendBtn2" class="sendBtn subtitle">
@@ -222,29 +232,37 @@
         </div>
       </div>
     </section>
-    <section class="section testLesson todaySection">
-      <div>
-        <h2 class="testTitle subtitle">
-          Розпочнімо<br />
-          навчатися
-        </h2>
-        <div class="whyBorder">
-          <span class="testTitle subtitle">вже сьогодні !</span>
+    <section class="section testLesson todaySection" id="todaySection">
+      <div class="todayContent">
+        <div class="todayText">
+          <div>
+            <h2 class="testTitle subtitle">
+              Розпочнімо<br />
+              навчатися
+            </h2>
+            <div class="whyBorder">
+              <span class="testTitle subtitle">вже сьогодні !</span>
+            </div>
+          </div>
+          <img id="greenHero" src="images/greenHero.png" />
+          <p class="smallText todayText">
+            Наш менеджер зателефонує Вам і підбере курс та вчителя під ваші
+            потреби
+          </p>
+        </div>
+        <div class="grid">
+          <div></div>
+          <div class="dropMenu">
+            <input type="text" name="name" id="name3" placeholder="Ім’я" />
+            <input type="text" name="phone" id="phone3" placeholder="Телефон" />
+            <button type="submit" id="sendBtn3" class="sendBtn subtitle">
+              хочу на урок!
+            </button>
+          </div>
         </div>
       </div>
-      <img id="greenHero" src="images/greenHero.png" />
-      <p class="smallText todayText">
-        Наш менеджер зателефонує Вам і підбере курс та вчителя під ваші потреби
-      </p>
-      <div class="dropMenu">
-        <input type="text" name="name" id="name3" placeholder="Ім’я" />
-        <input type="text" name="phone" id="phone3" placeholder="Телефон" />
-        <button type="submit" id="sendBtn3" class="sendBtn subtitle">
-          хочу на урок!
-        </button>
-      </div>
     </section>
-    <footer class="section">
+    <footer class="section footerSection">
       <div class="footer">
         <img id="elephant" src="images/elephant.png" />
         <img class="logo" src="images/logo.png" />

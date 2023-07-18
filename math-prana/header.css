@@ -104,6 +104,8 @@ input {
   font-family: "Inter";
   font-weight: 500;
   font-size: 18px;
+  width: 100%;
+  max-width: 320px;
 }
 .sendBtn {
   border-radius: 68px;
@@ -112,11 +114,13 @@ input {
   background-color: black;
   color: white;
   width: 100%;
+  max-width: 320px;
   font-size: 42px;
 }
-.courses div {
+#preschool, #school {
   height: 208px;
   width: 100%;
+  max-width:592px;
   padding: 20px;
   border-radius: 20px;
   font-family: "Inter", sans-serif;
@@ -131,6 +135,9 @@ input {
   gap: 5px;
 }
 .courses {
+  margin: auto;
+  max-width: 592px;
+  justify-content: center;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -150,9 +157,34 @@ input {
   width: auto;
   margin: auto;
 }
-.preschool :nth-child(3) {
+.kids{
   color: #fcd444;
 }
-.school :nth-child(3) {
+.middleKids {
   color: #004a9e;
+}
+@media (min-width: 770px) {
+  .logo {
+    width: 139px;
+    height: 43px;
+  }
+  .courses {
+    flex-direction: row;
+    height:auto;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    
+  }
+  #preschool, #school{
+    display: flex;
+    flex-direction: row;
+    width:592px;
+    height: 144px;
+  }
+  .courses div{
+    height: 144px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }

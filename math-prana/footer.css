@@ -27,6 +27,7 @@
 .socials a div{
     width:44px;
     height: 44px;
+    background-size: cover;
 }
 .socials{
     display: flex;
@@ -36,4 +37,32 @@
 }
 .footer .logo{
     align-self: flex-end;
+}
+.footerSection .subtitle{
+    text-transform: uppercase;
+}
+@media (min-width: 770px) {
+    .socials a{
+        height: 52px;
+    }
+    .socials a div{
+        width:52px;
+        height: 52px;
+    }
+    .insta:hover{
+        background-image: url(images/blueInsta.png) ;
+    }
+    .fb:hover{
+        background-image: url(images/blueFb.png) ;
+    }
+    .telegram:hover{
+        background-image: url(images/blueTelegram.png) ;
+    }
+    .viber:hover{
+        background-image: url(images/blueViber.png) ;
+    }
+    #elephant{
+        width:144px;
+        height: 186.32px;
+    }
 }

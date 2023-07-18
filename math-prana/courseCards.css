@@ -9,16 +9,20 @@
 }
 .courseCards{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1280px;
     gap: 10px;
     padding-bottom:20px;
+    margin: auto;
 }
 .cardTitle{
     font-family: 'Inter';
     font-weight: 700;
     font-size: 22px;
 }
-li{
+.ul li{
     font-family: 'Inter';
     font-weight: 500;
     font-size: 14px;
@@ -76,4 +80,30 @@ li{
     text-decoration: underline;
     color: #3C8BDA;
     font-size: 14px;
+}
+@media (min-width: 770px) {
+    .cardTitle{
+        font-size:28px;
+    }
+    .ul li, .cards p,.cards p span, .cards a{
+        font-size: 18px;
+    }
+    #preschool, #school{
+        justify-content: left;
+        vertical-align: middle;
+        gap:40px;
+        
+    }
+    .textCourses{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        vertical-align: middle;
+        justify-content: center;
+    }
+}
+@media (min-width: 1200px) {
+    .courses{
+        flex-wrap: nowrap;
+    }
 }
