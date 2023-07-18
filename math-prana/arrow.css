@@ -1,0 +1,40 @@
+.arrow{
+    width: 15.957px;
+    height: 26.595px;
+    flex-shrink: 0;
+
+    background: url("images/slider/arrow.png");
+    background-size: contain;
+    align-self: center;
+    transform: scaleX(-1);
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 2;
+}
+
+
+.arrowRight{
+    transform: scaleX(1);
+    right: 20px;
+}
+.arrowLeft{
+    left: 20px;
+}
+
+
+@media screen and (min-width: 770px){
+
+    .arrow{
+        position: absolute;
+        width: 36px;
+        height: 60px;
+    }
+    .arrowRight{
+        right: 0;
+    }
+    .arrowLeft{
+        left: 0;
+    }
+
+}
+
