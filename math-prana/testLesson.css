@@ -52,6 +52,9 @@ text-align: left;
 }
 
 @media (min-width: 770px) {
+  .sendBtn:hover{
+    transform:scale(105%);
+  }
   .testLesson {
     min-height: 437px;
     max-width: 1280px;

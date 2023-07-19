@@ -7,6 +7,9 @@
 .nav-tabs{
     border: none;
 }
+.nav-link.active {
+    background: none !important;
+}
 .teacher-block__tab{
     border: 6px solid hsl(217deg 15% 83% / 0%);
 }
@@ -246,6 +249,9 @@
     .ytBtn{
         width: 142px;
         height: 121.794px;
+    }
+    .ytBtn:hover{
+        background-image: url(images/greenPlay.png);
     }
     .ytBtnContainer{
         position: absolute;
