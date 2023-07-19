@@ -153,6 +153,29 @@
     padding-right: 10px;
 }
 
+.ytBtn{
+    width: 73px;
+    height: 63px;
+    background: url("images/slider/yTBtn.png");
+    background-size: contain;
+}
+
+.teacherItem{
+    position: relative;
+}
+
+.ytBtnContainer{
+    position: absolute;
+    right: -16.37px;
+    bottom: -16.37px;
+    display: none;
+}
+
+.active+.ytBtnContainer{
+    display: block;
+}
+
+
 
 
 @media screen and (min-width: 770px){
@@ -220,7 +243,16 @@
         line-height: normal;
     }
 
-
+    .ytBtn{
+        width: 142px;
+        height: 121.794px;
+    }
+    .ytBtnContainer{
+        position: absolute;
+        right: -16.37px;
+        bottom: -16.37px;
+        display: block;
+    }
 
 }
 
