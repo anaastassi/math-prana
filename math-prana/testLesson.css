@@ -89,13 +89,13 @@ text-align: left;
 }
 .grid{
   display: grid;
-  grid-template-rows: 1fr 0.3fr;
+  grid-template-rows: 1.1fr 0.3fr;
 }
   /* input{
     max-width: 305px;
   } */
 }
-@media (min-width: 1000px) {
+@media (min-width: 1010px) {
   .grid{
     grid-template-rows: 1.3fr 0.3fr;
   }
@@ -104,8 +104,12 @@ text-align: left;
 @media (min-width: 1049px) {
   .grid{
     display: grid;
-    grid-template-rows: 1.3fr 0.3fr;
+    grid-template-rows: 0.9fr 0.3fr;
   }
+  .title{
+    font-size: 57px;
+  }
+  
   .subtitle{
     font-size: 61px;
   }

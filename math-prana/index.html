@@ -21,6 +21,7 @@
     <title>prana</title>
   </head>
   <body>
+    <div class="zoom">
     <header class="header">
       <div class="section">
         <div class="headerMenu">
@@ -90,10 +91,11 @@
       </a>
     </header>
     <section class="courses section">
-      <a href="#">
+      <a href="#preschoolCourse">
         <div class="preschool" id="preschool">
-          <div>
-          <img src="images/book.png" />
+          <div class="bookImg" >
+          <img id="book" src="images/book.png" />
+          <img id="bookHover" src="images/book2.png" />
         </div>
           <div class="textCourses">
           <span class="middleTitle">курси дошкільної підготовки</span>
@@ -101,10 +103,11 @@
         </div>
         </div>
       </a>
-      <a href="#">
+      <a href="#schoolCourse">
         <div class="school" id="school" >
-          <div>
-          <img src="images/pencil.png" />
+          <div class="bookImg">
+          <img id="pencil" src="images/pencil.png" />
+          <img id="pencilHover" src="images/pencil2.png" />
         </div>
         <div class="textCourses" >
           <span class="middleTitle">курси початкових класів</span>
@@ -121,9 +124,10 @@
       </div>
     </div>
       <div class="dotted">
+     
         <div class="dottedItem">
           <div>
-            <div class="dottedImg">
+            <div class="dottedImg" >
               <span class="listNumber">1</span>
               <img src="images/hand.png" />
             </div>
@@ -196,7 +200,7 @@
       </div>
     </section>
     <section class="courseCards section" id="course">
-      <div class="cards">
+      <div class="cards" id="preschoolCourse" >
         <img src="images/bookCard.png" />
         <div class="content">
           <span class="cardTitle">Курс дошкільної підготовки</span>
@@ -217,7 +221,7 @@
           <a href="#">Детальніше</a>
         </div>
       </div>
-      <div class="cards">
+      <div class="cards" id="schoolCourse" >
         <img src="images/pencilCard.png" />
         <div class="content">
           <span class="cardTitle">Курси для 1-4 класів</span>
@@ -415,6 +419,7 @@
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
     <script src='https://unpkg.com/popper.js'></script>
+
     <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
 
     <script
@@ -422,5 +427,6 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+  </div>
   </body>
 </html>

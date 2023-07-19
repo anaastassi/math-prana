@@ -152,10 +152,13 @@ input {
   background-color: #fcd444;
   color: black;
 }
-.courses img {
+#book, #pencil , #bookHover, #pencilHover{
   height: 91px;
   width: auto;
   margin: auto;
+}
+#bookHover, #pencilHover{
+  display:none;
 }
 .kids{
   color: #fcd444;
@@ -176,6 +179,11 @@ input {
     max-width: 1200px;
     
   }
+  #book, #pencil , #bookHover, #pencilHover{
+    height: 117px;
+    width: auto;
+    margin: auto;
+  }
   #preschool, #school{
     display: flex;
     flex-direction: row;
@@ -186,5 +194,47 @@ input {
     height: 144px;
     padding-top: 0;
     padding-bottom: 0;
+  }
+  .bookImg{
+    width: 155px;
+  }
+  .textCourses{
+    font-size: 20px;
+  }
+  .header {
+    background-image: url(images/back.png);
+    background-position: right top;
+    background-size: 50vw;
+  }
+  .arrow, .animals {
+    display: none;
+  }
+  .header{
+    min-height: 100vh;
+  }
+  .text{
+    margin-left: 0;
+    width: 58vw;
+    text-align: left;
+    margin-top:13vw;
+    
+  }
+  .preschool:hover #book{
+    display:none;
+  }
+  .preschool:hover #bookHover{
+    display: block;
+  }
+  .preschool:hover{
+  box-shadow: 0px 16px 31px 0px rgba(143, 113, 8, 0.48);
+  }
+  .school:hover{
+    box-shadow: 0px 16px 31px 0px rgba(143, 113, 8, 0.48);
+    }
+  .school:hover #pencil{
+    display:none;
+  }
+  .school:hover #pencilHover{
+    display: block;
   }
 }

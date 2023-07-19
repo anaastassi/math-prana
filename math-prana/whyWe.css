@@ -23,6 +23,14 @@
   justify-content: left;
   gap: 20px;
 }
+.dottedItem .subtitle:hover{
+  border-image-source: url(images/underline.png);
+  border-image-slice: 0 0 22 0 ;
+  border-image-width: 20px 20px 20px 20px ;
+  border-image-outset: 0px 0px 0px 0px ;
+  border-image-repeat: stretch stretch ;
+
+}
 .dottedItem .subtitle {
   text-align: left;
 }
@@ -90,4 +98,29 @@
   #whyBorder {
     margin: 0;
   }
+  .dottedImg {
+    width:137px;
+    height:110px;
+  }
+  .dottedImg img {
+    width: 52.55px;
+    height: auto;
+    position: absolute;
+    top: 78px;
+    left: 93px;
+    display: none;
+  }
+  .dottedImg:hover {
+    width:137px;
+    height:110px;
+  }
+  .dottedImg:hover img{
+    display: block;
+    
+  }
+  .listNumber {
+    font-size: 71px;
+    line-height: 110px;
+  }
+
 }
