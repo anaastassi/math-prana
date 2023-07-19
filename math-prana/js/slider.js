@@ -1,5 +1,6 @@
 function init() {
-
+    let a = document.querySelector(".teacher-block__child--2")
+    a.click();
 }
 
 function right() {

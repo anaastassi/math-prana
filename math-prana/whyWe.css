@@ -71,7 +71,47 @@
   padding-right: 15px;
   margin: auto;
 }
+.invisibleInput{
+  display: none;
+}
+.popupContainer{
+  position: relative;
+}
+.popupContent{
+  width: 516.071px;
+  min-height: 175.154px;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.textPopupConbtainer{
+  width: 383px;
+}
+.rightPopup{
+  position: absolute;
+  right: -494px;
+  top: -29px;
+  background: url("images/bgGreenPopup.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.leftPopup{
+  position: absolute;
+  left: -494px;
+  top: -29px;
+  background: url("images/bgBluePopup.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 @media (min-width: 1200px) {
+  .invisibleInput:checked~.popupContainer>.popupContent{
+    display: flex;
+  }
+  .invisibleInput:checked~div>.subtitle{
+    display: none;
+  }
+
   .dotted {
     background-image: url(images/dottedLine.png);
     background-repeat: no-repeat;
