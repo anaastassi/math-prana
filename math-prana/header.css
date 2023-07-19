@@ -82,7 +82,7 @@
   }
 }
 .offcanvas-top {
-  min-height: 100vh !important;
+  min-height: 130vh !important;
 }
 .dropMenu {
   display: flex;
@@ -166,7 +166,58 @@ input {
 .middleKids {
   color: #004a9e;
 }
+.phoneContainer{
+  display: none;
+  width: 177px;
+  font-size: 18px;
+  align-items: center;
+  gap:2px;
+}
+.phoneContainer img{
+  width: 21px;
+  height: 21px;
+}
+.contacts{
+  width: fit-content;
+  gap:2vw;
+}
+.bigPhoneBtn{
+  display: none;
+}
 @media (min-width: 770px) {
+  .phoneLogo{
+    display: none;
+  }
+  .bigPhoneBtn{
+    display: flex;
+    padding: 13px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 500px;
+    border: 1px solid var(--unnamed, #FFF);
+    background: var(--01, linear-gradient(180deg, #FFF 0%, #CFDDEB 100%));
+    box-shadow: 0px 13px 20px 0px rgba(150, 120, 12, 0.31);
+  }
+  .phoneContainer{
+    display: flex;
+    font-size: 16px;
+  }
+  .headerMenu{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 600;
+    color: #004A9E;
+    justify-content: center;
+    gap:8vw;
+  }
+  .contacts{
+    gap:2vw;
+    
+  }
+  #sendBtn1, #sendBtn2,#sendBtn{
+    font-size: 50px;
+  }
   .logo {
     width: 139px;
     height: 43px;
@@ -205,19 +256,16 @@ input {
     background-image: url(images/back.png);
     background-position: right top;
     background-size: 50vw;
+    min-height:40vh;
   }
   .arrow, .animals {
     display: none;
   }
-  .header{
-    min-height: 100vh;
-  }
   .text{
-    margin-left: 0;
-    width: 58vw;
-    text-align: left;
+    width: 100%;
     margin-top:13vw;
-    
+    max-width: 1200px;
+
   }
   .preschool:hover #book{
     display:none;
@@ -237,4 +285,18 @@ input {
   .school:hover #pencilHover{
     display: block;
   }
+}
+@media (min-width:1049px){
+  .text{
+    text-align: left;
+  }
+}
+
+@media (min-width:1400px){
+  .header{
+    min-height:90vh;
+    background: url(images/back.png) right top no-repeat, url(images/calc.png) left top no-repeat, url(images/triangle.png) left 200px no-repeat;
+    background-size: 40%, 15%, 15%;
+  }
+
 }
