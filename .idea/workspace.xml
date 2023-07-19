@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fa469d5-b115-4e14-9a3c-5fd5a4745e8d" name="Changes" comment="slider up">
+    <list default="true" id="2fa469d5-b115-4e14-9a3c-5fd5a4745e8d" name="Changes" comment="popup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/math-prana/images/bgBluePopup1.png" beforeDir="false" afterPath="$PROJECT_DIR$/math-prana/images/bgBluePopup.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/math-prana/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/math-prana/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/math-prana/js/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/math-prana/js/slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/math-prana/whyWe.css" beforeDir="false" afterPath="$PROJECT_DIR$/math-prana/whyWe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math-prana/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/math-prana/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math-prana/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/math-prana/header.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +89,7 @@
       <updated>1689674871819</updated>
       <workItem from="1689674873018" duration="17387000" />
       <workItem from="1689757504197" duration="21898000" />
-      <workItem from="1689804201868" duration="605000" />
+      <workItem from="1689804201868" duration="1313000" />
     </task>
     <task id="LOCAL-00001" summary="ыы">
       <created>1689708110332</created>
@@ -107,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689772891905</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="popup">
+      <created>1689805150560</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689805150560</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +133,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ыы" />
     <MESSAGE value="slider up" />
-    <option name="LAST_COMMIT_MESSAGE" value="slider up" />
+    <MESSAGE value="popup" />
+    <option name="LAST_COMMIT_MESSAGE" value="popup" />
   </component>
 </project>
