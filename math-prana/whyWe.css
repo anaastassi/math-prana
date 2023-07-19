@@ -75,10 +75,11 @@
   .dotted {
     background-image: url(images/dottedLine.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 1200px 1000px;
     background-position: top center;
     width: 1200px;
     height: 1070px;
+    
   }
   .dottedItem:nth-child(even) {
     justify-content: right;
@@ -87,7 +88,7 @@
     height: 553px;
     align-items: flex-end;
     padding-left:50px;
-    padding-right:50px;
+    padding-right:80px;
   }
   .flex {
     display: flex;

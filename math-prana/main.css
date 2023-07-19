@@ -48,3 +48,15 @@ a:hover{
   padding-top: 15px;
   padding-bottom: 15px;
 }
+@media screen and (min-width:1200px){
+  body{
+   
+      background: url(images/island1.png) left 18% ,
+      url(images/island2.png) right 38% ,
+      url(images/island3.png) left 56% ,
+      url(images/island4.png) right 74%,
+      #f8fafd;
+      background-repeat: no-repeat;
+      background-size: 10%;
+  }
+}
