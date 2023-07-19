@@ -1,3 +1,7 @@
+function init() {
+
+}
+
 function right() {
     let elements = document.getElementsByClassName("teacherItem")
     for (let i = 0; i < elements.length; i++) {
@@ -47,18 +51,18 @@ function hideLeft(elements) {
 
 
 //sender to  mail
-function sendAnimators() {
-    let name = "аниматоры";
-    let phone = document.getElementById("telephone2");
-    send(name, phone, "аниматоры");
+function sendMail(nameId,phoneId) {
+    let elementName = document.getElementById(nameId);
+    let elementPhone = document.getElementById(phoneId);
+    send(elementName, elementPhone, "Math");
 }
 
 
-function send(name, phone, from) {
+function send(elementName, elementPhone, from) {
     let data =
-        'name="' + name.value + '"&phone="' + phone.value + '"&from="' + from + '"';
+        'name="' + elementName.value + '"&phone="' + elementPhone.value + '"&from="' + from + '"';
     const xhr = new XMLHttpRequest();
-    xhr.open("POST", "sendMail.php");
+    xhr.open("POST", "php/sendMail.php");
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     // после получения какого-либо ответа от сервера
     xhr.onload = () => {
@@ -78,6 +82,6 @@ function send(name, phone, from) {
     };
     xhr.send(data);
 
-    name.value = "";
-    phone.value = "";
+    elementName.value = "";
+    elementPhone.value = "";
 }
