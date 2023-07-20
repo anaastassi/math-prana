@@ -1,6 +1,7 @@
 #slider{
     padding-right: 5px;
     padding-left: 5px;
+    padding-bottom:10px;
     width: 100%;
     overflow: hidden;
 }
