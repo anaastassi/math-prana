@@ -30,17 +30,13 @@
   font-size: 39px;
 }
 .header {
-  background-image: url(images/backMob.png);
+  background:url(images/animalsMob.png) center 65%, url(images/backMob.png) ;
   background-repeat: no-repeat;
-  background-position: right top;
-  max-height: 100vh;
+  position: relative;
+  background-size: 100% auto,100% 90%;
+  height: 100vh;
 }
-.animals {
-  background-image: url(images/animalsMob.png);
-  height: 249px;
-  background-position: right;
-  background-repeat: no-repeat;
-}
+
 .title {
   font-family: "DrukWideBold";
   font-size: 34px;
@@ -55,7 +51,9 @@
   color: #3c8bda;
 }
 .arrow {
-  position: relative;
+  position: absolute;
+  bottom: 3%;
+  left: 45%;
   width: 49px;
   height: 49px;
   overflow: hidden;
@@ -95,6 +93,7 @@
 .text {
   width: 250px;
   margin: auto;
+  text-align: left;
 }
 input {
   border-radius: 68px;
