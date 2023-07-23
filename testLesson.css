@@ -66,8 +66,8 @@ text-align: left;
     margin: auto;
   }
   .todaySection{
-    min-height: 437px;
-    max-width: 1200px;
+    min-height: 467px;
+    max-width: 1280px;
     background:  url(images/todayBack.png);
     background-repeat: no-repeat;
     background-size: cover;
