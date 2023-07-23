@@ -285,6 +285,11 @@ input {
     display: block;
   }
 }
+@media (min-width:770px){
+  .text{
+    text-align: left;
+  }
+}
 @media (min-width:1049px){
   .text{
     text-align: left;
