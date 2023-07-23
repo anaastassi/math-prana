@@ -101,9 +101,12 @@
         vertical-align: middle;
         justify-content: center;
     }
-}
-@media (min-width: 1200px) {
     .courses{
         flex-wrap: nowrap;
     }
 }
+/* @media (min-width: 1200px) {
+    .courses{
+        flex-wrap: nowrap;
+    }
+} */

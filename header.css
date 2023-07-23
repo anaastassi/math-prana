@@ -94,6 +94,26 @@
   width: 250px;
   margin: auto;
   text-align: left;
+  position: relative;
+
+}
+.text::before{
+  display: block;
+  position: absolute;
+  content: url(images/smallText1.png);
+  top: -15%;
+  left: -7%;
+}
+.text .subtitle{
+position: relative;
+}
+.text .subtitle span::after{
+  display: block;
+  position: absolute;
+  right: -10%;
+  content: url(images/smallText.png);
+  bottom: -85%;
+
 }
 input {
   border-radius: 68px;
@@ -178,12 +198,15 @@ input {
 }
 .contacts{
   width: fit-content;
-  gap:2vw;
+  gap:6vw;
 }
 .bigPhoneBtn{
   display: none;
 }
 @media (min-width: 770px) {
+  .header .section{
+  height:607px;
+  }
   .phoneLogo{
     display: none;
   }
@@ -251,12 +274,12 @@ input {
   .textCourses{
     font-size: 20px;
   }
-  .header {
+  /* .header {
     background-image: url(images/back.png);
     background-position: right top;
     background-size: 50vw;
-    min-height:40vh;
-  }
+
+  } */
   .arrow, .animals {
     display: none;
   }
@@ -284,13 +307,37 @@ input {
   .school:hover #pencilHover{
     display: block;
   }
-}
-@media (min-width:770px){
+  .header{
+    /* background: url(images/back.png) right top no-repeat;
+    background-size: 40%; */
+    background: none;
+    height:607px;
+  }
   .text{
+    margin-top:230px;
     text-align: left;
   }
+  .text .subtitle span::after{
+    display: block;
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    right: -10%;
+    content: url(images/text.png);
+    bottom: 25%;
+
+  }
+  .text::before{
+    display: block;
+    width:10%;
+    height:10%;
+    position: absolute;
+    content: url(images/text1.png);
+    top: -25%;
+    left: -1%;
+  }
 }
-@media (min-width:1049px){
+/* @media (min-width:1049px){
   .text{
     text-align: left;
   }
@@ -299,8 +346,8 @@ input {
 @media (min-width:1200px){
   .header{
     min-height:90vh;
-    background: url(images/back.png) right top no-repeat, url(images/calc.png) left top no-repeat, url(images/triangle.png) left 200px no-repeat;
-    background-size: 40%, 15%, 15%;
-  }
+    background: url(images/back.png) right top no-repeat;
+    background-size: 40%;
+  } */
 
-}
+/* } */
