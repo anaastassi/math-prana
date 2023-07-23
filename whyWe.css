@@ -103,8 +103,14 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+.revers{
+  flex-direction: row-reverse;
+}
 
 @media (min-width: 770px) {
+  .revers{
+    flex-direction: row;
+  }
   .invisibleInput:checked~.popupContainer>.popupContent{
     display: flex;
   }
