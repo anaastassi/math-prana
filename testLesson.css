@@ -29,7 +29,7 @@
 }
 #greenHero{
     top:-30px;
-    right:20px;
+   left:51%;
     z-index:2;
     height:125px;
     width:auto;
@@ -44,6 +44,7 @@ text-align: left;
 .todaySection{
     position: relative;
     background-image: url(images/todayBackMob.png);
+    background-position: 26%;
 }
 .todayText{
   padding-left:10px;
@@ -94,11 +95,39 @@ text-align: left;
   display: grid;
   grid-template-rows: 1.1fr 0.3fr;
 }
+.grid{
+  display: grid;
+  grid-template-rows: 0.9fr 0.3fr;
+}
+.title{
+  font-size: 57px;
+}
+
+.subtitle{
+  font-size: 61px;
+}
+.todayText{
+  max-width:420px;
+}
+#dropMenu2{
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 650px;
+}
+.testLesson .smallText{
+  font-size: 26px;
+  max-width: 660px;
+  margin: auto;
+  margin-bottom:5px;
+}
+#testLesson{
+  padding-bottom:100px;
+}
   /* input{
     max-width: 305px;
   } */
 }
-@media (min-width: 1010px) {
+/* @media (min-width: 1010px) {
   .grid{
     grid-template-rows: 1.3fr 0.3fr;
   }
@@ -133,4 +162,4 @@ text-align: left;
   #testLesson{
     padding-bottom:100px;
   }
-}
+} */
