@@ -86,7 +86,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 320px;
+  max-width: 390px;
   margin: auto;
   gap: 10px;
 }
@@ -97,23 +97,8 @@
   position: relative;
 
 }
-.text::before{
-  display: block;
-  position: absolute;
-  content: url(images/smallText1.png);
-  top: -15%;
-  left: -7%;
-}
 .text .subtitle{
 position: relative;
-}
-.text .subtitle span::after{
-  display: block;
-  position: absolute;
-  right: -10%;
-  content: url(images/smallText.png);
-  bottom: -85%;
-
 }
 input {
   border-radius: 68px;
@@ -124,7 +109,7 @@ input {
   font-weight: 500;
   font-size: 18px;
   width: 100%;
-  max-width: 320px;
+  max-width: 390px;
 }
 .sendBtn {
   border-radius: 68px;
@@ -133,8 +118,9 @@ input {
   background-color: black;
   color: white;
   width: 100%;
-  max-width: 320px;
+  max-width: 390px;
   font-size: 42px;
+  margin-top:10px;
 }
 #preschool, #school {
   height: 208px;
@@ -202,6 +188,23 @@ input {
 }
 .bigPhoneBtn{
   display: none;
+}
+@media (min-width: 290px) {
+  .text::before{
+    display: block;
+    position: absolute;
+    content: url(images/smallText1.png);
+    top: -15%;
+    left: -7%;
+  }
+  .text .subtitle span::after{
+    display: block;
+    position: absolute;
+    right: -10%;
+    content: url(images/smallText.png);
+    bottom: -85%;
+
+  }
 }
 @media (min-width: 770px) {
   .header .section{
