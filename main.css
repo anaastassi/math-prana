@@ -61,7 +61,7 @@ a:hover{
       url(images/back.png) right top no-repeat,
       #f8fafd;
       background-repeat: no-repeat;
-      background-size: 10%, 10%, 10%, 10%, 20%, 15%, 42%;
+      background-size: 10%, 10%, 10%, 10%, 20%, 15%, 51%;
   }
 }
 
@@ -73,6 +73,9 @@ a:hover{
 @media screen and (min-width:1200px){
   .zoom{
       zoom:70%;
+  }
+  body{
+    background-size: 10%, 10%, 10%, 10%, 20%, 15%, 57%;
   }
 }
 @media screen and (min-width:1300px){
@@ -98,5 +101,10 @@ a:hover{
 @media screen and (min-width:1700px){
   .zoom{
       zoom:100%;
+  }
+}
+@media screen and (min-width:2000px){
+  body {
+    background-size: 10%, 10%, 10%, 10%, 20%, 15%, 43%;
   }
 }

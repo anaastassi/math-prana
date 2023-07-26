@@ -101,7 +101,7 @@ text-align: left;
   grid-template-rows: 0.8fr 0.3fr;
 }
 .title{
-  font-size: 57px;
+  font-size: 49px;
 }
 
 .subtitle{
@@ -128,6 +128,12 @@ input, .dropMenu,.sendBtn{
     max-width: 320px;
 }
 }
+@media (min-width: 2000px) {
+  .title {
+    font-size: 57px;
+  }
+}
+
 /* @media (min-width: 1010px) {
   .grid{
     grid-template-rows: 1.3fr 0.3fr;
