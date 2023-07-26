@@ -37,7 +37,7 @@
 .dotted {
   display: flex;
   flex-direction: column;
-  width: fit-content;
+  max-width: 300px;
   margin: auto;
   padding-top: 30px;
   gap: 10px;
@@ -131,7 +131,7 @@
     background-repeat: no-repeat;
     background-size: 1200px 1000px;
     background-position: top center;
-    width: 1200px;
+    max-width: 1200px;
     height: 1070px;
     
   }
