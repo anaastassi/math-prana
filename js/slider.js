@@ -85,4 +85,6 @@ function send(elementName, elementPhone, from) {
 
     elementName.value = "";
     elementPhone.value = "";
+    
+    window.location = 'thank-you.html';
 }
