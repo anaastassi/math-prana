@@ -35,6 +35,13 @@
     padding-right: 8px;
     
 }
+.content .ul {
+    list-style-type: none;
+}
+.content .ul li:before {
+    content: '•';
+    margin-right: 6.6px;
+}
 .ul{
     display: flex;
     gap:5px;

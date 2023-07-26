@@ -87,6 +87,14 @@
 .textPopupConbtainer{
   width: 383px;
 }
+.textPopupConbtainer span{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 112%; /* 17.92px */
+}
 .rightPopup{
   position: absolute;
   right: -494px;
