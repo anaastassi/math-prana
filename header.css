@@ -210,6 +210,7 @@ input {
   }
 }
 @media (min-width: 770px) {
+
   .header .section{
   height:607px;
   }

@@ -6,6 +6,8 @@
     background-color: white;
     text-align: left;
     margin-bottom:50px;
+    background: none;
+    position: relative;
 }
 .courseCards{
     display: flex;
@@ -88,7 +90,81 @@
     color: #3C8BDA;
     font-size: 14px;
 }
+#target1:target .front {
+    transform: rotateY(180deg);
+    position: absolute;
+}
+#target1:target .back {
+    transform: rotateY(360deg);
+    position: relative;
+}
+#preschoolCourse:target .front {
+    transform: rotateY(-180deg);
+    position: relative;
+
+}
+#preschoolCourse:target .back {
+    transform: rotateY(-360deg);
+    position: absolute;
+}
+#secondTarget:target .secondFront {
+    transform: rotateY(180deg);
+    position: absolute;
+}
+#secondTarget:target .secondBack {
+    transform: rotateY(360deg);
+    position: relative;
+}
+#schoolCourse:target .secondFront {
+    transform: rotateY(-180deg);
+    position: relative;
+}
+#schoolCourse:target .secondBack  {
+    transform: rotateY(-360deg);
+    position: absolute;
+}
+.back, .front,.secondBack, .secondFront{
+  backface-visibility: hidden;
+  min-height: 317px;
+  transition: 1s;
+  border-radius: 30px;
+}
+.secondBack, .back{
+      position: absolute;
+      top:0;
+}
+.back , .secondBack {
+  transform: rotateY(180deg);
+  background-color: white;
+}
+.back , .secondBack span{
+    margin-top: 10px;
+}
+.front, .secondFront {
+  background-color: white;
+  
+}
+.back, .secondBack{
+    height:inherit;
+    width:100%;
+    padding-top:20px;
+  }
+  .back a, .secondBack a{
+    position: absolute;
+    bottom: 20px;
+    right:20px;
+}
 @media (min-width: 770px) {
+    .back, .front,.secondBack, .secondFront{
+        position: absolute;
+    }
+    .cards{
+      position: relative;
+      height:664px;
+      perspective: 1000px;
+      background: none;
+    }
+   
     .cardTitle{
         font-size:28px;
     }
@@ -112,8 +188,3 @@
         flex-wrap: nowrap;
     }
 }
-/* @media (min-width: 1200px) {
-    .courses{
-        flex-wrap: nowrap;
-    }
-} */
