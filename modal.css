@@ -1,0 +1,41 @@
+
+.modal-footer .btn{
+    width:48%;
+    margin:0;
+    padding-left:5px;
+    padding-right:5px;
+    min-width: fit-content;
+    margin-bottom:3px;
+}
+.modal-footer .btn:focus{
+    box-shadow: none;
+}
+.modal-footer{
+    justify-content: space-around;
+    gap:1%;
+}
+.btn-primary{
+    color: black;
+    border-radius: 20px;
+    background: #fcd444 !important;
+}
+.btn-secondary{
+    color: black;
+    border-radius: 20px;
+    background:linear-gradient(180deg,#FC990F 0%, tomato 100%) !important;
+}
+.block{
+    text-decoration: none;
+}
+.main-page__block{
+    text-decoration: none !important; 
+}
+.main-page__block{
+    text-decoration: none !important; 
+}
+.main-page__block:hover{
+    color:white;
+}
+.application .modal{
+    color:black;
+}
