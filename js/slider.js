@@ -63,7 +63,7 @@ function send(elementName, elementPhone, from) {
     let data =
         'name="' + elementName.value + '"&phone="' + elementPhone.value + '"&from="' + from + '"';
     const xhr = new XMLHttpRequest();
-    xhr.open("POST", "php/sendMail.php");
+    xhr.open("POST", "php/telegram.php");
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     // после получения какого-либо ответа от сервера
     xhr.onload = () => {
