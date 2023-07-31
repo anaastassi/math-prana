@@ -14,7 +14,7 @@ if(isset($_POST['from'])){
 }
 
 
-$message = "имя:".$name."\r\nтел:".$phone."\r\n".$fromForm;
+$message = $fromForm."\r\n"."имя:".$name."\r\nтел:".$phone;
 
 $token = "6567282932:AAGSW3J0_4k46nrbmd7bxBJH1cW13tyNhgg";
 
