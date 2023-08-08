@@ -94,7 +94,7 @@
   gap: 10px;
 }
 .text {
-  -webkit-text-size-adjust: auto;
+  -webkit-text-size-adjust: none;
   text-size-adjust:auto;
   width: 250px;
   margin: auto;
