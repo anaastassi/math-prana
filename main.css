@@ -51,7 +51,8 @@ section.fixed div {
 }
 @media screen and (min-width:770px){
     .zoom{
-        zoom:50%;
+        zoom:0.5;
+        -webkit-text-size-adjust: auto;
     }
     body{
    
@@ -70,12 +71,14 @@ section.fixed div {
 
 @media screen and (min-width:1100px){
   .zoom{
-      zoom:60%;
+      zoom:0.6;
+      -webkit-text-size-adjust: auto;
   }
 }
 @media screen and (min-width:1200px){
   .zoom{
-      zoom:70%;
+      zoom:0.7;
+      -webkit-text-size-adjust: auto;
   }
   body{
     background-size: 10%, 10%, 10%, 10%, 20%, 15%, 57%;
@@ -83,27 +86,32 @@ section.fixed div {
 }
 @media screen and (min-width:1300px){
   .zoom{
-      zoom:80%;
+      zoom:0.8;
+      -webkit-text-size-adjust: auto;
   }
 }
 @media screen and (min-width:1400px){
   .zoom{
-      zoom:85%;
+      zoom:0.85;
+      -webkit-text-size-adjust: auto;
   }
 }
 @media screen and (min-width:1500px){
   .zoom{
-      zoom:90%;
+      zoom:0.9;
+      -webkit-text-size-adjust: auto;
   }
 }
 @media screen and (min-width:1600px){
   .zoom{
-      zoom:95%;
+      zoom:0.95;
+      -webkit-text-size-adjust: auto;
   }
 }
 @media screen and (min-width:1700px){
   .zoom{
-      zoom:100%;
+      zoom:1;
+      -webkit-text-size-adjust: auto;
   }
 }
 @media screen and (min-width:2000px){
