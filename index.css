@@ -1,0 +1,7 @@
+body {
+    display: flex;
+}
+
+section.fixed div {
+    -webkit-text-size-adjust: none;
+}
