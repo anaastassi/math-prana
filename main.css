@@ -51,8 +51,8 @@ section.fixed div {
 }
 @media screen and (min-width:770px){
     .zoom{
-        zoom:0.5;
-        -webkit-text-size-adjust: auto;
+      transform-origin: top left;
+      transform: scale(0.5);
     }
     body{
    
@@ -70,15 +70,14 @@ section.fixed div {
 }
 
 @media screen and (min-width:1100px){
-  .zoom{
-      zoom:0.6;
-      -webkit-text-size-adjust: auto;
+  .zoom{    transform-origin: top left;
+    transform: scale(0.6);
   }
 }
 @media screen and (min-width:1200px){
   .zoom{
-      zoom:0.7;
-      -webkit-text-size-adjust: auto;
+    transform-origin: top left;
+    transform: scale(0.7);
   }
   body{
     background-size: 10%, 10%, 10%, 10%, 20%, 15%, 57%;
@@ -86,32 +85,32 @@ section.fixed div {
 }
 @media screen and (min-width:1300px){
   .zoom{
-      zoom:0.8;
-      -webkit-text-size-adjust: auto;
+    transform-origin: top left;
+    transform: scale(0.8);
   }
 }
 @media screen and (min-width:1400px){
   .zoom{
-      zoom:0.85;
-      -webkit-text-size-adjust: auto;
+    transform-origin: top left;
+    transform: scale(0.85);
   }
 }
 @media screen and (min-width:1500px){
   .zoom{
-      zoom:0.9;
-      -webkit-text-size-adjust: auto;
+    transform-origin: top left;
+    transform: scale(0.9);
   }
 }
 @media screen and (min-width:1600px){
   .zoom{
-      zoom:0.95;
-      -webkit-text-size-adjust: auto;
+    transform-origin: top left;
+    transform: scale(0.95);
   }
 }
 @media screen and (min-width:1700px){
   .zoom{
-      zoom:1;
-      -webkit-text-size-adjust: auto;
+    transform-origin: top left;
+    transform: scale(1);
   }
 }
 @media screen and (min-width:2000px){
