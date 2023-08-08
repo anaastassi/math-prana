@@ -51,7 +51,7 @@ section.fixed div {
 }
 @media screen and (min-width:770px){
     .zoom{
-      transform-origin: top left;
+      transform-origin: top center;
       transform: scale(0.5);
     }
     body{
