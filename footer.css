@@ -44,6 +44,9 @@ footer::after{
 .footer .logo{
     align-self: flex-end;
 }
+.footer a{
+    align-self: flex-end
+}
 .footerSection .subtitle{
     text-transform: uppercase;
 }

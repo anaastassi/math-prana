@@ -4,6 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CFXRE83MZC"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-CFXRE83MZC');
+    </script>
+    <!--end Google tag (gtag.js) -->
+
+    <!-- Meta Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+              n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+              'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1497018034399040');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=1497018034399040&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
@@ -25,7 +55,7 @@
     <link rel="stylesheet" href="modal.css" />
     <title>prana</title>
   </head>
-  <body onload="init()">
+  <body onload="init()" id="body">
     <div
       class="offcanvas offcanvas-top"
       tabindex="-1"
@@ -870,14 +900,15 @@
       <footer class="section footerSection">
         <div class="footer">
           <img id="elephant" src="images/elephant.png" />
-          <img class="logo" src="images/logo.png" />
+          <a href="#body">
+            <img class="logo" src="images/logo.png" />
+          </a>
         </div>
         <span class="subtitle">математика з нами - це легко і цікаво !</span>
         <div class="socials">
-          <a href=""><div class="insta"></div></a>
-          <a href=""><div class="fb"></div></a>
-          <a href=""><div class="telegram"></div></a>
-          <a href=""><div class="viber"></div></a>
+          <a href="https://instagram.com/mathematics_prana"><div class="insta"></div></a>
+          <a href="https://t.me/+380955322303"><div class="telegram"></div></a>
+          <a href="viber://chat?number=+380955322303"><div class="viber"></div></a>
         </div>
       </footer>
 
