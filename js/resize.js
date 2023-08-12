@@ -29,4 +29,4 @@ function ss(){
     let scale = window.getComputedStyle(document.querySelector('.zoom'), null).getPropertyValue('zoom');
     updateText({page, scale}) 
   }
-ss()
+// ss()

@@ -163,6 +163,7 @@
 @media (min-width: 770px) {
     .back, .front,.secondBack, .secondFront{
         position: absolute;
+        height: 664px;
     }
     .cards{
       position: relative;
