@@ -171,7 +171,9 @@
       perspective: 1000px;
       background: none;
     }
-   
+    .cards p{
+        margin-bottom: 0 !important;
+    }
     .cardTitle{
         font-size:28px;
     }
