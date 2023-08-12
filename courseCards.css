@@ -84,7 +84,13 @@
     font-size:18px;
     margin-left:10px;
 }
-.cards a{
+.cardsA1{
+    float: right;
+    text-decoration: underline;
+    color: #3C8BDA;
+    font-size: 14px;
+}
+.cardsA2{
     float: right;
     text-decoration: underline;
     color: #3C8BDA;
