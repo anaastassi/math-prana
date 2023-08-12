@@ -143,7 +143,7 @@
   transform: rotateY(180deg);
   background-color: white;
 }
-.back , .secondBack span{
+.back span , .secondBack span{
     margin-top: 10px;
 }
 .front, .secondFront {
