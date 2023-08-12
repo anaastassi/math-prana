@@ -1,14 +1,14 @@
-function resize (element,index) {
-    let elSize = window.getComputedStyle(element, null).getPropertyValue('font-size');
-    console.log(elSize)
+// function resize (element) {
+//     let elSize = window.getComputedStyle(element, null).getPropertyValue('font-size');
+//     console.log(elSize)
     
-    const s = `;font-size: ${parseInt(elSize)/2}px`;
-    element.setAttribute("style", element.getAttribute("style") + s);
-    for (let i = 0; i < element.children.length; i++) {
-      resize(element.children[i]);
-    }
-  }
-  resize(document.getElementsByTagName("body")[0]); 
+//     const s = `;font-size: ${parseInt(elSize)/2}px`;
+//     element.setAttribute("style", element.getAttribute("style") + s);
+//     for (let i = 0; i < element.children.length; i++) {
+//       resize(element.children[i]);
+//     }
+//   }
+// resize(document.getElementsByTagName("body")[0]); 
 function updateText({page, scale}){
     if($(page).length > 0) {
         console.log(scale);
@@ -22,8 +22,8 @@ function updateText({page, scale}){
     }
   }
 function ss(){
-    let page = document.getElementsByTagName("body");
+    let page = document.getElementsByTagName("body")[0];
     let scale = window.getComputedStyle(document.querySelector('.zoom'), null).getPropertyValue('zoom');
-    resize(page[0], scale)
+    updateText({page, scale}) 
   }
-  
+ss()
