@@ -51,6 +51,7 @@
   margin: auto;
 }
 .blueSpan{
+  position: relative;
   font-family: "Shnobel";
   color: #3c8bda;
   font-size: 31px;
