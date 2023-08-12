@@ -51,6 +51,7 @@
   margin: auto;
 }
 .blueSpan{
+  font-family: "Shnobel";
   color: #3c8bda;
 }
 .arrow {
@@ -200,7 +201,7 @@ input {
     top: -15%;
     left: -7%;
   }
-  .text .subtitle span::after{
+  .text .blueSpan::after{
     display: block;
     position: absolute;
     right: -10%;
@@ -342,7 +343,7 @@ input {
     margin-top:230px;
     text-align: left;
   }
-  .text .subtitle span::after{
+  .text .blueSpan::after{
     display: block;
     width: 10%;
     height: 10%;
