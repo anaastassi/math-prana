@@ -9,6 +9,7 @@
 //     }
 //   }
 // resize(document.getElementsByTagName("body")[0]); 
+let isIpad = /Macintosh/i.test(navigator.userAgent) && navigator.maxTouchPoints && navigator.maxTouchPoints > 1;
 function updateText({page, scale}){
     if($(page).length > 0) {
         console.log(scale);
@@ -29,4 +30,6 @@ function ss(){
     let scale = window.getComputedStyle(document.querySelector('.zoom'), null).getPropertyValue('zoom');
     updateText({page, scale}) 
   }
-ss()
+if (isIpad == true){
+    ss()
+}
