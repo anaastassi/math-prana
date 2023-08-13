@@ -85,15 +85,9 @@
     margin-left:10px;
 }
 .cardsA1{
-    float: right;
-    text-decoration: underline;
-    color: #3C8BDA;
     font-size: 14px;
 }
 .cardsA2{
-    float: right;
-    text-decoration: underline;
-    color: #3C8BDA;
     font-size: 14px;
 }
 #target1:target .front {
@@ -155,7 +149,10 @@
     width:100%;
     padding-top:20px;
   }
-  .back a, .secondBack a{
+  .back a, .secondBack a, .cards a{
+    float: right;
+    color: #3C8BDA;
+    text-decoration: underline;
     position: absolute;
     bottom: 20px;
     right:20px;

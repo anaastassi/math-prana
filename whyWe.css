@@ -114,7 +114,12 @@
 .revers{
   flex-direction: row-reverse;
 }
-
+.animation{
+  display: none;
+}
+.gsap-marker-end,.gsap-marker-start, .gsap-marker-scroller-end, .gsap-marker-scroller-start{
+  display: none !important;
+}
 @media (min-width: 770px) {
   .revers{
     flex-direction: row;
@@ -133,6 +138,7 @@
     background-position: top center;
     max-width: 1200px;
     height: 1070px;
+    position: relative;
     
   }
   .dottedItem:nth-child(even) {
@@ -176,6 +182,22 @@
   .listNumber {
     font-size: 71px;
     line-height: 110px;
+  }
+  #motionPath {
+    overflow: visible;
+    height: 950px;
+    max-width: 1200px;
+  }
+  #linesvg{
+    width:1200px;
+    height:950px;
+    overflow: visible;
+  }
+  .animation{
+    position: absolute;
+    top:0;
+    display: block;
+    height: 1000px;
   }
 
 }
