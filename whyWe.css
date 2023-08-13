@@ -76,6 +76,7 @@
 }
 .popupContainer{
   position: relative;
+  z-index: 1000;
 }
 .popupContent{
   width: 680.071px;
