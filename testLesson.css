@@ -114,7 +114,7 @@ text-align: left;
   font-size: 49px;
 }
 
-.subtitle{
+.subtitle, .blueSpan{
   font-size: 61px;
 }
 .todayText{
