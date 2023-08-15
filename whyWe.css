@@ -33,6 +33,8 @@
 }
 .dottedItem .subtitle {
   text-align: left;
+  position: relative;
+  z-index: 1000;
 }
 .dotted {
   display: flex;
@@ -121,6 +123,24 @@
 .gsap-marker-end,.gsap-marker-start, .gsap-marker-scroller-end, .gsap-marker-scroller-start{
   display: none !important;
 }
+/*----------------------*/
+.dottedItem:hover .subtitle{
+  border-image-source: url(images/underline.png);
+  border-image-slice: 0 0 22 0 ;
+  border-image-width: 20px 20px 20px 20px ;
+  border-image-outset: 0px 0px 0px 0px ;
+  border-image-repeat: stretch stretch ;
+
+}
+
+.dottedItem:hover .dottedImg {
+  background: url(images/greenItem.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 68px;
+  height: 54px;
+  position: relative;
+}
 @media (min-width: 770px) {
   .revers{
     flex-direction: row;
@@ -172,11 +192,11 @@
     left: 93px;
     display: none;
   }
-  .dottedImg:hover {
+  .dottedItem:hover .dottedImg  {
     width:137px;
     height:110px;
   }
-  .dottedImg:hover img{
+  .dottedItem:hover img{
     display: block;
     
   }
