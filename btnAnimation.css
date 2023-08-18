@@ -1,80 +1,79 @@
 .rightBtnAnim{
     /*position: relative;*/
-    animation: 1.7s linear rightAnim;
+    animation: 3.4s linear rightAnim;
 }
 .leftBtnAnim{
     /*position: relative;*/
-    animation: 1.5s linear leftAnim;
+    animation: 3s linear leftAnim;
 }
 @keyframes leftAnim {
-    from{
+    0%{
         transform-origin: bottom left;
         transform: translateY(-1400px);
     }
-    19%{
+    59.5%{
         transform: translateY(-1400px);
         transform-origin: bottom left;
     }
-    49%{
+    74.5%{
            transform-origin: bottom left;
        }
-    50%, 57% {
+    75%, 78.5% {
         transform-origin: center;
         /*transform: rotateZ(0);*/
     }
-    65% {
+    82.5% {
         transform: rotateZ(-45deg) translateY(0px);
     }
-    70% {
+    85% {
         transform: rotateZ(20deg) ;
     }
-    75% {
+    87.5% {
         transform: rotateZ(-20deg);
     }
-    80% {
+    90% {
         transform: rotateZ(6deg);
     }
-    85% {
+    92.5% {
         transform: rotateZ(-4deg);
     }
-    90%, 100% {
+    95%, 100% {
         transform: rotateZ(0);
     }
 }
 
 @keyframes rightAnim {
-    from {
+    0% {
         transform-origin: bottom left;
         transform: translateY(-1400px);
     }
-    19% {
-
+    59.5%{
         transform: translateY(-1400px);
         transform-origin: bottom left;
     }
-    49% {
+    74.5% {
         transform-origin: bottom left;
     }
-    50%, 57% {
+    75%, 78.5% {
         transform-origin: center;
         /*transform: rotateZ(0);*/
     }
-    65% {
+    82.5% {
         transform: rotateZ(15deg) translateY(0px);
     }
-    70% {
+    85% {
         transform: rotateZ(-10deg);
     }
-    75% {
+    87.5%  {
         transform: rotateZ(10deg);
     }
-    80% {
+    90% {
         transform: rotateZ(-6deg);
     }
-    85% {
+    92.5% {
         transform: rotateZ(4deg);
     }
-    90%, 100% {
+    95%, 100% {
         transform: rotateZ(0);
     }
 }
